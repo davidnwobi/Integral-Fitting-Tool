@@ -6,6 +6,16 @@ The form factor is normalized by the particle volume
 NOTE: This model is identical to the original ellipsoid model, but with a
 better integration system. 
 
+
+Upper Limits for the Parameters
+-------------------------------
+q, radius_equatorial, radius_polar
+[0.5, 200000, 200000]
+
+The likehood for getting accurate results is better within these limits. 
+As they are appreached and beyond them, the results may not be as accurate. Not unusable, but not as accurate.
+
+
 Definition
 ----------
 
