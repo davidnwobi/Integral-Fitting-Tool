@@ -29,6 +29,4 @@ double eval_poly(double var0, double var1){
 }
     
 
-typedef double (*Integrand2)(double x , double q, double radius, double length, double* res1, double* res2, int n, int i);
-
 
